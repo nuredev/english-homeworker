@@ -1,0 +1,47 @@
+Describe what you see in the picture of a window below. <img src="https://i.ibb.co/Xsfj2Bt/image.png"/>
+
+Writing letters, memos or reports are the ways most people use computers. They manipulate
+words and a text on a screen – primarily to print at some later time and store for safe keeping.
+Computers alleviate much of the tedium associated with typing, proofing and manipulating words.
+Because computers can store and recall information so readily, documents need not be retyped from
+scratch just to make corrections or changes. The real strength of word processing lies in this ability
+to store, retrieve and change information. Typing is still necessary (at least, for now) to put the
+information into the computer initially, but once in, the need to retype only applies to new
+information.
+
+Word processing is more than just typing, however. Features such as Search and Replace
+allow users to find a particular phrase or word no matter where it is in a body of text. This becomes
+more useful as the amount of text grows.
+
+Word processors usually include different ways to view the text. Some include a view that
+displays the text with editor’s marks that show hidden characters or commands (spaces, returns,
+paragraph endings, applied styles, etc.). Many word processors include the ability to show exactly
+how the text will appear on paper when printed. This is called WYSIWYG (What You See Is What
+You Get, pronounced “wizzy-wig”). WYSIWYG shows bold, italic, underline and other style
+characteristics on the screen so that the user can clearly see what he or she is typing. Another
+feature is the correct display of different typefaces and format characteristics (margins, indents,
+super- and sub-scripted characters, etc.). This allows the user to plan the document more accurately
+and reduces the frustration of printing something that doesn’t look right. Many word processors
+now have so many features that they approach the capabilities of layout applications for desktop
+publishing. They can import graphics, format multiple columns of text, run text around graphics,
+etc.
+
+Two important features offered by word processors are automatic hyphenation and mail
+merging. Automatic hyphenation is the splitting of a word between two lines so that the text will fit
+better on the page.
+
+The word processor constantly monitors words typed and when it reaches the end of a line,
+if a word is too long to fit, it checks that word in a hyphenation dictionary. This dictionary contains
+a list of words with the preferred places to split it. If one of these cases fits part of the word at the
+end of the line, the word processor splits the word, adds a hyphen at the end and places the rest on
+the next line. This happens extremely fast and gives text a more polished and professional look.
+
+Mail merge applications are largely responsible for the explosion of ‘personalized’ mail.
+Form letters with designated spaces for names and addresses are stored as documents with links to
+lists of names and addresses of potential buyers or clients. By designating what information goes
+into which blank space, a computer can process a huge amount of correspondence substituting the
+‘personal’ information into a form letter. The final document appears to be typed specifically to the
+person addressed.
+
+Many word processors can also generate tables of numbers or figures, sophisticated indices
+and comprehensive tables of contents.

@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>September 15, 2022 | English HomeWork</title>
+    <style>
+        :root {
+        	font-size: 24px;
+        	font-weight: 400;
+        }
+        
+        body {
+        	background-color: #242424;
+            color: #000;
+        	position: absolute;
+        	margin: 0;
+        	width: calc(100vw - 2rem);
+        	height: calc(100vh - 2rem);
+            padding: 1rem;
+        	display: flex;
+        	flex-direction: column;
+        	align-items: center;
+        	gap: 1rem;
+        }
+        
+        body::before {
+            content: "";
+            display: block;
+            margin-top: 2rem;
+        }
+        
+        * {
+        	font-family: 'Times New Roman', serif;
+        }
+        
+        article {
+            background-color: #fff;
+            padding: 2rem 2rem;
+            width: min(40rem, 100vw - 6rem);
+            border-radius: 0.5rem;
+            margin-bottom: 4rem;
+        }
+        
+        article > header {
+            text-align: center;
+            font-weight: 800;
+        }
+        
+        article.word_list {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
+        
+        article.word_list header {
+            margin-bottom: 1rem;
+        }
+        
+        article.word_list header b {
+            display: block;
+            color: #d9dee7;
+        }
+        
+        article.word_list table {
+            border-collapse: collapse;
+        }
+        
+        article.word_list th {
+            text-align: left;
+            border: 1px solid black;
+            font-weight: 400;
+            padding: 0.125rem 0.25rem;
+        }
+        
+        article.word_list th b {
+            color: #d9dee7;
+            font-weight: 800;
+        }
+        
+        article.word_list tr:nth-child(even) {
+            background-color: #d9dee7;
+        }
+        
+        article.answer_questions > div > div {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            background-color: #ecf0f3;
+            padding: 0.5rem;
+            margin: 0.5rem -0.5rem;
+            border-radius: 0.5rem;
+            gap: 0.5rem;
+        }
+        
+        article.answer_questions > div > div > span:first-child {
+            background-color: #d9dee7;
+            padding: 0.25rem;
+            border-radius: 0.25rem;
+            width: fit-content;
+            font-weight: 800;
+        }
+        
+        article.true_or_false > div {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            margin: 0.5rem -0.5rem;
+            gap: 0.5rem;
+        }
+        
+        article.true_or_false > div span {
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+        }
+        
+        article.true_or_false > div span[value="True"] {
+            background-color: #c5ffb9;
+        }
+        
+        article.true_or_false > div span[value="False"] {
+            background-color: #ffc7c7;
+        }
+        
+        article.complete_sentences > div.cs_words {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            margin: 0.5rem auto;
+            gap: 0.3rem;
+            border: 2px solid black;
+            padding: 0.25rem;
+            width: fit-content;
+            border-radius: 0.5rem;
+        }
+        
+        article.complete_sentences > div.cs_words > span,
+        article.complete_sentences > div.cs_sentences u {
+            background-color: #d9dee7;
+            padding: 0 0.25rem;
+            border-radius: 0.25rem;
+        }
+        
+        article.complete_sentences > div.cs_sentences {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            margin: 0.5rem -0.5rem;
+            gap: 0.5rem;
+            line-height: 1.25rem;
+        }
+        
+        .tooltip {
+            position: fixed;
+            left: 50%;
+            transform: translateX(-50%) translateY(-125%);
+            width: max-content;
+            max-width: 80vw;
+            margin-bottom: 1rem;
+            background-color: #242424;
+            color: #fff;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            outline: 0.5rem solid #fff;
+            -webkit-user-select: none;      
+        	-moz-user-select: none;
+        	-ms-user-select: none;
+        	user-select: none; 
+        }
+        
+        .highlighted {
+            background-color: #66b8ff !important;
+        }
+
+    </style>
+</head>
+<body>
+<article>- Зажми Ctrl и нажми/выдели текст (выделяй сверху вниз!)<br/>- Проскроль или нажми на перевод чтобы закрыть его.</article><article class="text">
+<header data-translation="TEXT 9B. ЗАПУСК СРЕДСТВ ОБРАБОТКИ СЛОВ">
+TEXT 9B. WORD PROCESSING FACILITIES START UP
+</header>
+<p >
+<span data-translation="Опишите, что вы видите на изображении окна ниже.">
+Describe what you see in the picture of a window below. <img src="https://i.ibb.co/Xsfj2Bt/image.png"/>.
+</span>
+</p>
+<p >
+<span data-translation="Написание писем, заметок или отчетов — это то, как большинство людей используют компьютеры.">
+Writing letters, memos or reports are the ways most people use computers.
+</span>
+<span data-translation="Они манипулируют словами и текстом на экране — в первую очередь для того, чтобы распечатать их позже и сохранить для безопасного хранения.">
+They manipulate words and a text on a screen – primarily to print at some later time and store for safe keeping.
+</span>
+<span data-translation="Компьютеры облегчают большую часть утомительной работы, связанной с набором текста, проверкой и обработкой слов.">
+Computers alleviate much of the tedium associated with typing, proofing and manipulating words.
+</span>
+<span data-translation="Поскольку компьютеры могут так легко хранить и вызывать информацию, документы не нужно перепечатывать с нуля только для внесения исправлений или изменений.">
+Because computers can store and recall information so readily, documents need not be retyped from scratch just to make corrections or changes.
+</span>
+<span data-translation="Настоящая сила обработки текстов заключается в этой способности хранить, извлекать и изменять информацию.">
+The real strength of word processing lies in this ability to store, retrieve and change information.
+</span>
+<span data-translation="Печатание по-прежнему необходимо (по крайней мере, на данный момент) для первоначального ввода информации в компьютер, но после ввода необходимость повторного ввода применяется только к новой информации.">
+Typing is still necessary (at least, for now) to put the information into the computer initially, but once in, the need to retype only applies to new information..
+</span>
+</p>
+<p >
+<span data-translation="Однако обработка текста — это больше, чем просто набор текста.">
+Word processing is more than just typing, however.
+</span>
+<span data-translation="Такие функции, как поиск и замена, позволяют пользователям находить определенную фразу или слово независимо от того, где они находятся в тексте.">
+Features such as Search and Replace allow users to find a particular phrase or word no matter where it is in a body of text.
+</span>
+<span data-translation="Это становится более полезным по мере роста объема текста.">
+This becomes more useful as the amount of text grows..
+</span>
+</p>
+<p >
+<span data-translation="Текстовые процессоры обычно включают различные способы просмотра текста.">
+Word processors usually include different ways to view the text.
+</span>
+<span data-translation="Некоторые из них включают вид, отображающий текст с пометками редактора, которые показывают скрытые символы или команды (пробелы, возвраты, окончания абзацев, примененные стили и т. д.).">
+Some include a view that displays the text with editor’s marks that show hidden characters or commands (spaces, returns, paragraph endings, applied styles, etc.).
+</span>
+<span data-translation="Многие текстовые процессоры включают возможность показать, как именно текст будет выглядеть на бумаге при печати.">
+Many word processors include the ability to show exactly how the text will appear on paper when printed.
+</span>
+<span data-translation="Это называется WYSIWYG (Что Ты Видешь То Ты Получаешь, произносится как «wizzy-wig»).">
+This is called WYSIWYG (What You See Is What You Get, pronounced “wizzy-wig”).
+</span>
+<span data-translation="WYSIWYG показывает жирный шрифт, курсив, подчеркивание и другие характеристики стиля на экране, чтобы пользователь мог четко видеть, что он или она печатает.">
+WYSIWYG shows bold, italic, underline and other style characteristics on the screen so that the user can clearly see what he or she is typing.
+</span>
+<span data-translation="Еще одной особенностью является правильное отображение различных шрифтов и характеристик формата (полей, отступов, надстрочных и подстрочных символов и т. д.).">
+Another feature is the correct display of different typefaces and format characteristics (margins, indents, super- and sub-scripted characters, etc.).
+</span>
+<span data-translation="Это позволяет пользователю более точно спланировать документ и уменьшить разочарование от печати того, что выглядит неправильно.">
+This allows the user to plan the document more accurately and reduces the frustration of printing something that doesn’t look right.
+</span>
+<span data-translation="Многие текстовые процессоры теперь имеют так много функций, что они приближаются к возможностям приложений верстки для настольных издательских систем.">
+Many word processors now have so many features that they approach the capabilities of layout applications for desktop publishing.
+</span>
+<span data-translation="Они могут импортировать графику, форматировать несколько столбцов текста, размещать текст вокруг графики и т. д.">
+They can import graphics, format multiple columns of text, run text around graphics, etc..
+</span>
+</p>
+<p >
+<span data-translation="Текстовые процессоры предлагают две важные функции: автоматическое расставление переносов и слияние писем.">
+Two important features offered by word processors are automatic hyphenation and mail merging.
+</span>
+<span data-translation="Автоматический перенос — это разделение слова между двумя строками, чтобы текст лучше помещался на странице.">
+Automatic hyphenation is the splitting of a word between two lines so that the text will fit better on the page..
+</span>
+</p>
+<p >
+<span data-translation="Текстовый процессор постоянно отслеживает вводимые слова и, когда он достигает конца строки, если слово слишком длинное для размещения, он проверяет это слово в словаре переносов.">
+The word processor constantly monitors words typed and when it reaches the end of a line, if a word is too long to fit, it checks that word in a hyphenation dictionary.
+</span>
+<span data-translation="Этот словарь содержит список слов с предпочтительными местами для разделения.">
+This dictionary contains a list of words with the preferred places to split it.
+</span>
+<span data-translation="Если один из этих случаев соответствует части слова в конце строки, текстовый процессор разделяет слово, добавляет дефис в конце и помещает остальную часть на следующую строку.">
+If one of these cases fits part of the word at the end of the line, the word processor splits the word, adds a hyphen at the end and places the rest on the next line.
+</span>
+<span data-translation="Это происходит очень быстро и придает тексту более безупречный и профессиональный вид.">
+This happens extremely fast and gives text a more polished and professional look..
+</span>
+</p>
+<p >
+<span data-translation="Приложения для слияния почты в значительной степени ответственны за взрыв «персонализированной» почты.">
+Mail merge applications are largely responsible for the explosion of ‘personalized’ mail.
+</span>
+<span data-translation="Формальные письма с отведенными местами для имен и адресов хранятся как документы со ссылками на списки имен и адресов потенциальных покупателей или клиентов.">
+Form letters with designated spaces for names and addresses are stored as documents with links to lists of names and addresses of potential buyers or clients.
+</span>
+<span data-translation="Определяя, какая информация помещается в какое пустое место, компьютер может обрабатывать огромное количество корреспонденции, заменяя «личную» информацию стандартным письмом.">
+By designating what information goes into which blank space, a computer can process a huge amount of correspondence substituting the ‘personal’ information into a form letter.
+</span>
+<span data-translation="Окончательный документ, по-видимому, печатается специально для адресата.">
+The final document appears to be typed specifically to the person addressed..
+</span>
+</p>
+<p >
+<span data-translation="Многие текстовые процессоры также могут генерировать таблицы чисел или цифр, сложные указатели и исчерпывающие оглавления.">
+Many word processors can also generate tables of numbers or figures, sophisticated indices and comprehensive tables of contents..
+</span>
+</p>
+</article>
+<article class="word_list">
+<header >
+<b >
+UNIT 9. DATA PROCESSING
+</b>
+Task 1. Read, write the translation and learn the basic vocabulary terms:
+</header>
+<table >
+<tr >
+<th >
+<b>#</b>
+</th>
+<th >
+<b>Original</b>
+</th>
+<th >
+<b>Translated</b>
+</th>
+</tr>
+<tr >
+<th >
+1
+</th>
+<th >
+accuracy
+</th>
+<th >
+точность
+</th>
+</tr>
+<tr >
+<th >
+2
+</th>
+<th >
+manner
+</th>
+<th >
+способ
+</th>
+</tr>
+<tr >
+<th >
+3
+</th>
+<th >
+additional
+</th>
+<th >
+дополнительный
+</th>
+</tr>
+<tr >
+<th >
+4
+</th>
+<th >
+manual
+</th>
+<th >
+руководство
+</th>
+</tr>
+<tr >
+<th >
+5
+</th>
+<th >
+ancient
+</th>
+<th >
+древний
+</th>
+</tr>
+<tr >
+<th >
+6
+</th>
+<th >
+marvel
+</th>
+<th >
+чудо
+</th>
+</tr>
+<tr >
+<th >
+7
+</th>
+<th >
+available
+</th>
+<th >
+доступный
+</th>
+</tr>
+<tr >
+<th >
+8
+</th>
+<th >
+meaningful
+</th>
+<th >
+осмысленный
+</th>
+</tr>
+<tr >
+<th >
+9
+</th>
+<th >
+capability
+</th>
+<th >
+способность
+</th>
+</tr>
+<tr >
+<th >
+10
+</th>
+<th >
+objective
+</th>
+<th >
+задача
+</th>
+</tr>
+<tr >
+<th >
+11
+</th>
+<th >
+challenge
+</th>
+<th >
+вызов
+</th>
+</tr>
+<tr >
+<th >
+12
+</th>
+<th >
+record
+</th>
+<th >
+запись
+</th>
+</tr>
+<tr >
+<th >
+13
+</th>
+<th >
+communications networks
+</th>
+<th >
+сети связи
+</th>
+</tr>
+<tr >
+<th >
+14
+</th>
+<th >
+related
+</th>
+<th >
+связанные с
+</th>
+</tr>
+<tr >
+<th >
+15
+</th>
+<th >
+comprehensive groupings
+</th>
+<th >
+всеобъемлющие группировки
+</th>
+</tr>
+<tr >
+<th >
+16
+</th>
+<th >
+resource
+</th>
+<th >
+ресурс
+</th>
+</tr>
+<tr >
+<th >
+17
+</th>
+<th >
+correctly
+</th>
+<th >
+правильно
+</th>
+</tr>
+<tr >
+<th >
+18
+</th>
+<th >
+sequence
+</th>
+<th >
+последовательность
+</th>
+</tr>
+<tr >
+<th >
+19
+</th>
+<th >
+cost-effective
+</th>
+<th >
+экономически эффективным
+</th>
+</tr>
+<tr >
+<th >
+20
+</th>
+<th >
+successively
+</th>
+<th >
+последовательно
+</th>
+</tr>
+<tr >
+<th >
+21
+</th>
+<th >
+data processing
+</th>
+<th >
+обработка данных
+</th>
+</tr>
+<tr >
+<th >
+22
+</th>
+<th >
+to accomplish
+</th>
+<th >
+выполнить
+</th>
+</tr>
+<tr >
+<th >
+23
+</th>
+<th >
+data storage hierarchy
+</th>
+<th >
+иерархия хранения данных
+</th>
+</tr>
+<tr >
+<th >
+24
+</th>
+<th >
+to consume
+</th>
+<th >
+потреблять
+</th>
+</tr>
+<tr >
+<th >
+25
+</th>
+<th >
+definition
+</th>
+<th >
+определение
+</th>
+</tr>
+<tr >
+<th >
+26
+</th>
+<th >
+to convert
+</th>
+<th >
+конвертировать
+</th>
+</tr>
+<tr >
+<th >
+27
+</th>
+<th >
+equipment
+</th>
+<th >
+оборудование
+</th>
+</tr>
+<tr >
+<th >
+28
+</th>
+<th >
+to eliminate
+</th>
+<th >
+устранить
+</th>
+</tr>
+<tr >
+<th >
+29
+</th>
+<th >
+error-prone
+</th>
+<th >
+подверженный ошибкам
+</th>
+</tr>
+<tr >
+<th >
+30
+</th>
+<th >
+to house
+</th>
+<th >
+вмещать
+</th>
+</tr>
+<tr >
+<th >
+31
+</th>
+<th >
+facilities
+</th>
+<th >
+удобства
+</th>
+</tr>
+<tr >
+<th >
+32
+</th>
+<th >
+to remain vulnerable
+</th>
+<th >
+оставаться уязвимым
+</th>
+</tr>
+<tr >
+<th >
+33
+</th>
+<th >
+in order to
+</th>
+<th >
+чтобы
+</th>
+</tr>
+<tr >
+<th >
+34
+</th>
+<th >
+to respond
+</th>
+<th >
+ответить
+</th>
+</tr>
+<tr >
+<th >
+35
+</th>
+<th >
+initial processing
+</th>
+<th >
+начальная обработка
+</th>
+</tr>
+<tr >
+<th >
+36
+</th>
+<th >
+to retrieve
+</th>
+<th >
+извлекать
+</th>
+</tr>
+<tr >
+<th >
+37
+</th>
+<th >
+instant response
+</th>
+<th >
+мгновенный ответ
+</th>
+</tr>
+<tr >
+<th >
+38
+</th>
+<th >
+unorganized
+</th>
+<th >
+неорганизованный
+</th>
+</tr>
+<tr >
+<th >
+39
+</th>
+<th >
+invalid data
+</th>
+<th >
+неверные данные
+</th>
+</tr>
+<tr >
+<th >
+40
+</th>
+<th >
+value
+</th>
+<th >
+значение
+</th>
+</tr>
+<tr >
+<th >
+41
+</th>
+<th >
+item
+</th>
+<th >
+пункт
+</th>
+</tr>
+<tr >
+<th >
+42
+</th>
+<th >
+visual display
+</th>
+<th >
+визуальный дисплей
+</th>
+</tr>
+</table>
+</article>
+<article class="answer_questions">
+<header >
+Task 8. Answer the following questions.
+</header>
+<div >
+<div >
+<span data-translation="1. Что такое текстовый процессор?">
+1. What is a word processor?
+</span>
+<span data-translation="Текстовый процессор — это приложение, используемое для написания и редактирования документов, компоновки текста и предварительного просмотра на мониторе компьютера того, как будет выглядеть печатная копия.">
+Word processor is an application used to write and revise documents, compose the layout of the text, and preview on a computer monitor how the printed copy will appear.
+</span>
+</div>
+<div >
+<span data-translation="2. Что делает текстовые процессоры лучше традиционных пишущих машинок?">
+2. What makes word processors superior to traditional typewriters?
+</span>
+<span data-translation="Текстовые процессоры наполнены такими функциями, как поиск и замена, скрытые символы или команды, которые значительно упрощают редактирование текста.">
+Word processors are filled with features, such as Find and Replace, hidden characters or commands, that make editing text much simpler.
+</span>
+</div>
+<div >
+<span data-translation="3. Назовите способность текстовых процессоров показывать, как текст будет выглядеть на бумаге.">
+3. Name the ability of word processors to show how the text will appear on paper.
+</span>
+<span data-translation="Это называется WYSIWYG">
+This is called WYSIWYG
+</span>
+</div>
+<div >
+<span data-translation="4. Что означают буквы WYSIWYG?">
+4. What do the letters WYSIWYG stand for?
+</span>
+<span data-translation="Что видишь, то и получаешь">
+What You See Is What You Get
+</span>
+</div>
+<div >
+<span data-translation="5. Опишите две важные функции, предлагаемые текстовыми процессорами.">
+5. Describe two important features offered by word processors.
+</span>
+<span data-translation="Двумя важными функциями, предлагаемыми текстовыми процессорами, являются автоматическое расставление переносов и слияние писем.">
+Two important features offered by word processors are automatic hyphenation and mail merging.
+</span>
+</div>
+<div >
+<span data-translation="6. Какая функция обработки текста отвечает за «персонализированную» почту?">
+6. What word-processing feature is responsible for “personalized” mail?
+</span>
+<span data-translation="Приложения слияния в значительной степени ответственны за взрыв «персонализированной» почты.">
+Mail merge applications are largely responsible for the explosion of ‘personalized’ mail.
+</span>
+</div>
+</div>
+</article>
+<article class="true_or_false">
+<header >
+Task 9. Mark these statements as True or False.
+</header>
+<div >
+<span data-translation="1. Когда вы доходите до конца каждой строки, Word автоматически начинает новую строку. Эта функция называется переносом слов." value="True">
+1. When you get to the end of each line, Word starts a new line automatically. This feature is called word wrap.
+</span>
+<span data-translation="2. Документы должны быть перепечатаны для внесения исправлений или изменений." value="False">
+2. Documents have to be retyped to make corrections or changes.
+</span>
+<span data-translation="3. Пользователь может более точно спланировать документ с помощью характеристик формата." value="True">
+3. The user can plan the document more accurately by means of format characteristics.
+</span>
+<span data-translation="4. Текстовый процессор отслеживает вводимые слова, и когда он достигает конца строки…" value="True">
+4. The word processor monitors words typed and when it reaches the end of a line…
+</span>
+<span data-translation="5. Некоторые текстовые процессоры могут генерировать таблицы чисел, указатели и оглавления." value="True">
+5. Some word processors can generate tables of numbers, indices and tables of contents.
+</span>
+</div>
+</article>
+<article class="word_list">
+<header >
+<b >
+UNIT 9. DATA PROCESSING
+</b>
+Task 10. Find the English equivalents to the following word combinations.
+</header>
+<table >
+<tr >
+<th >
+<b>#</b>
+</th>
+<th >
+<b>Original</b>
+</th>
+<th >
+<b>Translated</b>
+</th>
+</tr>
+<tr >
+<th >
+1
+</th>
+<th >
+на екрані
+</th>
+<th >
+on the display
+</th>
+</tr>
+<tr >
+<th >
+2
+</th>
+<th >
+полегшувати
+</th>
+<th >
+facilitate
+</th>
+</tr>
+<tr >
+<th >
+3
+</th>
+<th >
+відшукувати інформацію
+</th>
+<th >
+search for information
+</th>
+</tr>
+<tr >
+<th >
+4
+</th>
+<th >
+вид, проекція (тексту)
+</th>
+<th >
+text projection
+</th>
+</tr>
+<tr >
+<th >
+5
+</th>
+<th >
+розлад (планів)
+</th>
+<th >
+disruption
+</th>
+</tr>
+<tr >
+<th >
+6
+</th>
+<th >
+розділити слово (для переносу)
+</th>
+<th >
+split the word
+</th>
+</tr>
+<tr >
+<th >
+7
+</th>
+<th >
+підходити, відповідати
+</th>
+<th >
+fit
+</th>
+</tr>
+<tr >
+<th >
+8
+</th>
+<th >
+контролювати
+</th>
+<th >
+to control
+</th>
+</tr>
+<tr >
+<th >
+9
+</th>
+<th >
+бути відповідальним за що-небудь
+</th>
+<th >
+to be responsible for
+</th>
+</tr>
+<tr >
+<th >
+10
+</th>
+<th >
+підставляти, замінювати
+</th>
+<th >
+replace
+</th>
+</tr>
+<tr >
+<th >
+11
+</th>
+<th >
+складні індекси
+</th>
+<th >
+complex indexes
+</th>
+</tr>
+</table>
+</article>
+<article class="complete_sentences">
+<header >
+Task 11. Look at the words in the box and complete the following sentences with them. Use the information in the text.
+</header>
+<div class="cs_words">
+<span >
+type style
+</span>
+<span >
+WYSIWYG
+</span>
+<span >
+format
+</span>
+<span >
+indent
+</span>
+<span >
+font menu
+</span>
+<span >
+justification
+</span>
+<span >
+mail merging
+</span>
+</div>
+<div class="cs_sentences">
+<span data-translation="1. <u>WYSIWYG</u> означает «Что видишь, то и получаешь». Это означает, что ваша распечатка будет точно соответствовать тому, что вы видите на экране.">
+1. <u>WYSIWYG</u> stands for 'What you see is what you get'. It means that your printout will precisely match what you see on the screen.
+</span>
+<span data-translation="2. Под <u>выравниванием</u> понимается процесс, при котором пространство между словами в строке делится поровну, чтобы текст находился на одном уровне с левым и правым полями.">
+2. <u>justification</u> refers to the process by which the space between the words in a line is divided evenly to make the text flush with both left and right margins.
+</span>
+<span data-translation="3. Вы можете изменить шрифт, выбрав имя и размер шрифта в <u>меню шрифтов</u>.">
+3. You can change font by selecting the font name and point size from the <u>font menu</u>.
+</span>
+<span data-translation="4. <u>формат</u> относится к отличительной визуальной характеристике шрифта; «Курсив», например, — это <u>стиль шрифта</u>, который можно использовать с несколькими гарнитурами.">
+4. <u>format</u> refers to a distinguishing visual characteristic of a typeface; 'italic', for example is a <u>type style</u> that may be used with a number of typefaces.
+</span>
+<span data-translation="5. Меню <u>отступ</u> текстового процессора позволяет вам устанавливать поля, номера страниц, пробелы между столбцами и выравнивание абзаца.">
+5. The <u>indent</u> menu of a word processor allows you to set margins, page numbers, spaces between columns and paragraph justifications.
+</span>
+<span data-translation="6. <u>слияние почты</u> позволяет объединить два файла, один из которых содержит имена и адреса, а другой содержит стандартное письмо.">
+6. <u>mail merging</u> enables you to combine two files, one containing names and addresses and the other containing a standard letter.
+</span>
+<span data-translation="7. <u>Отступ</u> — это расстояние между началом строки и левым полем или концом строки и правым полем. Текст с отступом обычно уже, чем текст без <u>форматирования</u>.">
+7. An <u>indent</u> is the distance between the beginning of a line and the left margin, or the end of a line and the right margin. An indented text is usually narrower than a text without <u>formatting</u>.
+</span>
+</div>
+</article>
+<article class="complete_sentences">
+<header >
+Task 12. Complete the following conversation with the given words.
+</header>
+<div class="cs_words">
+<span >
+finally
+</span>
+<span >
+now
+</span>
+<span >
+command
+</span>
+<span >
+mistake
+</span>
+<span >
+first
+</span>
+<span >
+next
+</span>
+<span >
+Edit
+</span>
+<span >
+insert
+</span>
+</div>
+<div class="cs_sentences">
+<span data-translation="A: Вы знаете, как я могу переместить этот абзац? Я хочу поместить его в конец этой страницы.">
+A: Do you know how I can move this paragraph? I want to put it at the end of this page.
+</span>
+<span data-translation="Б: Э... Думаю, да. (1) <u>сначала</u> вы используете мышь, чтобы выбрать текст, который вы хотите переместить, а затем вы выбираете <u>команду Cut</u> (2) в меню «Правка».">
+B: Er.. I think so. (1) <u>first</u> you use the mouse to select the text that you want to move and then you choose the Cut <u>command</u> (2) from the Edit menu.
+</span>
+<span data-translation="А: Вот так?">
+A: Like this?
+</span>
+<span data-translation="Б: Да. Выделенный текст исчезнет и попадет в буфер обмена. И (3) <u>теперь</u> вы находите место, где должен появиться текст, и щелкаете, чтобы расположить (4) <u>следующую</u> точку в этом месте.">
+B: Yes. The selected text disappears and goes onto the Clipboard. And (3) <u>now</u> you find where you want the text to appear and you click to position the (4) <u>next</u> point in this place.
+</span>
+<span data-translation="A: Мм.. это нормально?">
+A: Mm.. is that OK?
+</span>
+<span data-translation="Б: Да, если ты этого хочешь. (5) <u>Теперь</u> выберите «Вставить» в (6) меню <u>Правка</u> или, удерживая нажатой клавишу «Command», нажмите V. (7) <u>Наконец</u> убедитесь, что текст появился в нужном месте».">
+B: Yes, if that’s where you want it. (5) <u>Now</u> choose Paste from the (6) <u>Edit</u> menu, or hold down Command and press V. (7) <u>Finally</u> check that the text has appeared in the right place.
+</span>
+<span data-translation="О: Что мне делать, если я совершу (8) <u>ошибку</u>?">
+A: What do I do if I make a (8) <u>mistake</u>?
+</span>
+<span data-translation="B: Вы можете выбрать «Отменить» в меню «Правка», чтобы отменить последнюю команду редактирования.">
+B: You can choose Undo from the Edit menu which will reverse your last editing command.
+</span>
+<span data-translation="А: Гениально! Большое спасибо.">
+A: Brilliant! Thanks a lot.
+</span>
+</div>
+</article>
+
+<script>
+        [...document.getElementsByTagName("header"), ...document.getElementsByTagName("span")].forEach(span => {
+            if (span.dataset && span.dataset.translation) {
+                function selectionChanged() {
+                    clear_tooltips();
+        
+                    let start = window.getSelection().anchorNode.parentNode;
+                    let end = window.getSelection().focusNode.parentNode;
+                    let selection = [];
+                    let selecting = false;
+        
+                    for (let i = 0; i < span.parentNode.children.length; i++) {
+                        if (span.parentNode.children[i].innerText.includes(start.innerText)) selecting = true;
+                        if (selecting) {
+                            selection = [...selection, span.parentNode.children[i].dataset.translation];
+                            span.parentNode.children[i].classList.add("highlighted");
+                        }
+                        if (span.parentNode.children[i].innerText.includes(end.innerText)) selecting = false;
+                    }
+                    if (selection.length > 0) create_tooltip(start, selection.join(" "));
+        
+                    if (window.getSelection) {
+                        if (window.getSelection().empty) {  // Chrome
+                            window.getSelection().empty();
+                        } else if (window.getSelection().removeAllRanges) {  // Firefox
+                            window.getSelection().removeAllRanges();
+                        }
+                    } else if (document.selection) {  // IE?
+                        document.selection.empty();
+                    }
+                }
+                span.onmouseup = span.onselectionchange = span.onkeyup = function (e) {
+                    if (e.ctrlKey) selectionChanged();
+                };
+            }
+        });
+        
+        
+        window.addEventListener('scroll', _ => {clear_tooltips()});
+        
+        
+        function create_tooltip(origin, content) {
+            let tooltip = document.createElement("div");
+            tooltip.classList.add("tooltip");
+            tooltip.innerHTML = content;
+            tooltip.style.setProperty("top", origin.getBoundingClientRect().top + "px");
+            tooltip.onclick = function (_) {clear_tooltips()};
+            document.body.append(tooltip);
+        }
+        
+        
+        function clear_tooltips() {
+            document.querySelectorAll(".tooltip").forEach(el => el.remove());
+            document.querySelectorAll(".highlighted").forEach(el => el.classList.remove("highlighted"));
+        }
+
+    </script>
+</body>

@@ -1,0 +1,193 @@
+{
+    "date": "September 15, 2022",
+    "text": {
+        "title": "TEXT 9B. WORD PROCESSING FACILITIES START UP",
+        "title_translated": "TEXT 9B. ЗАПУСК СРЕДСТВ ОБРАБОТКИ СЛОВ",
+        "paragraphs": [
+            {
+                "Describe what you see in the picture of a window below. <img src=\"https://i.ibb.co/Xsfj2Bt/image.png\"/>": "Опишите, что вы видите на изображении окна ниже."
+            },
+            {
+                "Writing letters, memos or reports are the ways most people use computers": "Написание писем, заметок или отчетов — это то, как большинство людей используют компьютеры.",
+                "They manipulate words and a text on a screen – primarily to print at some later time and store for safe keeping": "Они манипулируют словами и текстом на экране — в первую очередь для того, чтобы распечатать их позже и сохранить для безопасного хранения.",
+                "Computers alleviate much of the tedium associated with typing, proofing and manipulating words": "Компьютеры облегчают большую часть утомительной работы, связанной с набором текста, проверкой и обработкой слов.",
+                "Because computers can store and recall information so readily, documents need not be retyped from scratch just to make corrections or changes": "Поскольку компьютеры могут так легко хранить и вызывать информацию, документы не нужно перепечатывать с нуля только для внесения исправлений или изменений.",
+                "The real strength of word processing lies in this ability to store, retrieve and change information": "Настоящая сила обработки текстов заключается в этой способности хранить, извлекать и изменять информацию.",
+                "Typing is still necessary (at least, for now) to put the information into the computer initially, but once in, the need to retype only applies to new information.": "Печатание по-прежнему необходимо (по крайней мере, на данный момент) для первоначального ввода информации в компьютер, но после ввода необходимость повторного ввода применяется только к новой информации."
+            },
+            {
+                "Word processing is more than just typing, however": "Однако обработка текста — это больше, чем просто набор текста.",
+                "Features such as Search and Replace allow users to find a particular phrase or word no matter where it is in a body of text": "Такие функции, как поиск и замена, позволяют пользователям находить определенную фразу или слово независимо от того, где они находятся в тексте.",
+                "This becomes more useful as the amount of text grows.": "Это становится более полезным по мере роста объема текста."
+            },
+            {
+                "Word processors usually include different ways to view the text": "Текстовые процессоры обычно включают различные способы просмотра текста.",
+                "Some include a view that displays the text with editor’s marks that show hidden characters or commands (spaces, returns, paragraph endings, applied styles, etc.)": "Некоторые из них включают вид, отображающий текст с пометками редактора, которые показывают скрытые символы или команды (пробелы, возвраты, окончания абзацев, примененные стили и т. д.).",
+                "Many word processors include the ability to show exactly how the text will appear on paper when printed": "Многие текстовые процессоры включают возможность показать, как именно текст будет выглядеть на бумаге при печати.",
+                "This is called WYSIWYG (What You See Is What You Get, pronounced “wizzy-wig”)": "Это называется WYSIWYG (Что Ты Видешь То Ты Получаешь, произносится как «wizzy-wig»).",
+                "WYSIWYG shows bold, italic, underline and other style characteristics on the screen so that the user can clearly see what he or she is typing": "WYSIWYG показывает жирный шрифт, курсив, подчеркивание и другие характеристики стиля на экране, чтобы пользователь мог четко видеть, что он или она печатает.",
+                "Another feature is the correct display of different typefaces and format characteristics (margins, indents, super- and sub-scripted characters, etc.)": "Еще одной особенностью является правильное отображение различных шрифтов и характеристик формата (полей, отступов, надстрочных и подстрочных символов и т. д.).",
+                "This allows the user to plan the document more accurately and reduces the frustration of printing something that doesn’t look right": "Это позволяет пользователю более точно спланировать документ и уменьшить разочарование от печати того, что выглядит неправильно.",
+                "Many word processors now have so many features that they approach the capabilities of layout applications for desktop publishing": "Многие текстовые процессоры теперь имеют так много функций, что они приближаются к возможностям приложений верстки для настольных издательских систем.",
+                "They can import graphics, format multiple columns of text, run text around graphics, etc.": "Они могут импортировать графику, форматировать несколько столбцов текста, размещать текст вокруг графики и т. д."
+            },
+            {
+                "Two important features offered by word processors are automatic hyphenation and mail merging": "Текстовые процессоры предлагают две важные функции: автоматическое расставление переносов и слияние писем.",
+                "Automatic hyphenation is the splitting of a word between two lines so that the text will fit better on the page.": "Автоматический перенос — это разделение слова между двумя строками, чтобы текст лучше помещался на странице."
+            },
+            {
+                "The word processor constantly monitors words typed and when it reaches the end of a line, if a word is too long to fit, it checks that word in a hyphenation dictionary": "Текстовый процессор постоянно отслеживает вводимые слова и, когда он достигает конца строки, если слово слишком длинное для размещения, он проверяет это слово в словаре переносов.",
+                "This dictionary contains a list of words with the preferred places to split it": "Этот словарь содержит список слов с предпочтительными местами для разделения.",
+                "If one of these cases fits part of the word at the end of the line, the word processor splits the word, adds a hyphen at the end and places the rest on the next line": "Если один из этих случаев соответствует части слова в конце строки, текстовый процессор разделяет слово, добавляет дефис в конце и помещает остальную часть на следующую строку.",
+                "This happens extremely fast and gives text a more polished and professional look.": "Это происходит очень быстро и придает тексту более безупречный и профессиональный вид."
+            },
+            {
+                "Mail merge applications are largely responsible for the explosion of ‘personalized’ mail": "Приложения для слияния почты в значительной степени ответственны за взрыв «персонализированной» почты.",
+                "Form letters with designated spaces for names and addresses are stored as documents with links to lists of names and addresses of potential buyers or clients": "Формальные письма с отведенными местами для имен и адресов хранятся как документы со ссылками на списки имен и адресов потенциальных покупателей или клиентов.",
+                "By designating what information goes into which blank space, a computer can process a huge amount of correspondence substituting the ‘personal’ information into a form letter": "Определяя, какая информация помещается в какое пустое место, компьютер может обрабатывать огромное количество корреспонденции, заменяя «личную» информацию стандартным письмом.",
+                "The final document appears to be typed specifically to the person addressed.": "Окончательный документ, по-видимому, печатается специально для адресата."
+            },
+            {
+                "Many word processors can also generate tables of numbers or figures, sophisticated indices and comprehensive tables of contents.": "Многие текстовые процессоры также могут генерировать таблицы чисел или цифр, сложные указатели и исчерпывающие оглавления."
+            }
+        ]
+    },
+    "tasks": [
+        {
+            "type": "word_list",
+            "category": "UNIT 9. DATA PROCESSING",
+            "title": "Task 1. Read, write the translation and learn the basic vocabulary terms:",
+            "words": {
+                "accuracy": "точность",
+                "manner": "способ",
+                "additional": "дополнительный",
+                "manual": "руководство",
+                "ancient": "древний",
+                "marvel": "чудо",
+                "available": "доступный",
+                "meaningful": "осмысленный",
+                "capability": "способность",
+                "objective": "задача",
+                "challenge": "вызов",
+                "record": "запись",
+                "communications networks": "сети связи",
+                "related": "связанные с",
+                "comprehensive groupings": "всеобъемлющие группировки",
+                "resource": "ресурс",
+                "correctly": "правильно",
+                "sequence": "последовательность",
+                "cost-effective": "экономически эффективным",
+                "successively": "последовательно",
+                "data processing": "обработка данных",
+                "to accomplish": "выполнить",
+                "data storage hierarchy": "иерархия хранения данных",
+                "to consume": "потреблять",
+                "definition": "определение",
+                "to convert": "конвертировать",
+                "equipment": "оборудование",
+                "to eliminate": "устранить",
+                "error-prone": "подверженный ошибкам",
+                "to house": "вмещать",
+                "facilities": "удобства",
+                "to remain vulnerable": "оставаться уязвимым",
+                "in order to": "чтобы",
+                "to respond": "ответить",
+                "initial processing": "начальная обработка",
+                "to retrieve": "извлекать",
+                "instant response": "мгновенный ответ",
+                "unorganized": "неорганизованный",
+                "invalid data": "неверные данные",
+                "value": "значение",
+                "item": "пункт",
+                "visual display": "визуальный дисплей"
+            }
+        },
+        {
+            "type": "answer_questions",
+            "title": "Task 8. Answer the following questions.",
+            "questions": {
+                "1. What is a word processor?": "Word processor is an application used to write and revise documents, compose the layout of the text, and preview on a computer monitor how the printed copy will appear.",
+                "2. What makes word processors superior to traditional typewriters?": "Word processors are filled with features, such as Find and Replace, hidden characters or commands, that make editing text much simpler.",
+                "3. Name the ability of word processors to show how the text will appear on paper.": "This is called WYSIWYG",
+                "4. What do the letters WYSIWYG stand for?": "What You See Is What You Get",
+                "5. Describe two important features offered by word processors.": "Two important features offered by word processors are automatic hyphenation and mail merging.",
+                "6. What word-processing feature is responsible for “personalized” mail?": "Mail merge applications are largely responsible for the explosion of ‘personalized’ mail."
+            },
+            "translations": {
+                "1. Что такое текстовый процессор?": "Текстовый процессор — это приложение, используемое для написания и редактирования документов, компоновки текста и предварительного просмотра на мониторе компьютера того, как будет выглядеть печатная копия.",
+                "2. Что делает текстовые процессоры лучше традиционных пишущих машинок?": "Текстовые процессоры наполнены такими функциями, как поиск и замена, скрытые символы или команды, которые значительно упрощают редактирование текста.",
+                "3. Назовите способность текстовых процессоров показывать, как текст будет выглядеть на бумаге.": "Это называется WYSIWYG",
+                "4. Что означают буквы WYSIWYG?": "Что видишь, то и получаешь",
+                "5. Опишите две важные функции, предлагаемые текстовыми процессорами.": "Двумя важными функциями, предлагаемыми текстовыми процессорами, являются автоматическое расставление переносов и слияние писем.",
+                "6. Какая функция обработки текста отвечает за «персонализированную» почту?": "Приложения слияния в значительной степени ответственны за взрыв «персонализированной» почты."
+            }
+        },
+        {
+            "type": "true_or_false",
+            "title": "Task 9. Mark these statements as True or False.",
+            "statements": {
+                "1. When you get to the end of each line, Word starts a new line automatically. This feature is called word wrap.": true,
+                "2. Documents have to be retyped to make corrections or changes.": false,
+                "3. The user can plan the document more accurately by means of format characteristics.": true,
+                "4. The word processor monitors words typed and when it reaches the end of a line…": true,
+                "5. Some word processors can generate tables of numbers, indices and tables of contents.": true
+            },
+            "translations": [
+                "1. Когда вы доходите до конца каждой строки, Word автоматически начинает новую строку. Эта функция называется переносом слов.",
+                "2. Документы должны быть перепечатаны для внесения исправлений или изменений.",
+                "3. Пользователь может более точно спланировать документ с помощью характеристик формата.",
+                "4. Текстовый процессор отслеживает вводимые слова, и когда он достигает конца строки…",
+                "5. Некоторые текстовые процессоры могут генерировать таблицы чисел, указатели и оглавления."
+            ]
+        },
+        {
+            "type": "word_list",
+            "category": "UNIT 9. DATA PROCESSING",
+            "title": "Task 10. Find the English equivalents to the following word combinations.",
+            "words": {
+                "на екрані": "on the display",
+                "полегшувати": "facilitate",
+                "відшукувати інформацію": "search for information",
+                "вид, проекція (тексту)": "text projection",
+                "розлад (планів)": "disruption",
+                "розділити слово (для переносу)": "split the word",
+                "підходити, відповідати": "fit",
+                "контролювати": "to control",
+                "бути відповідальним за що-небудь": "to be responsible for",
+                "підставляти, замінювати": "replace",
+                "складні індекси": "complex indexes"
+            }
+        },
+        {
+            "type": "complete_sentences",
+            "title": "Task 11. Look at the words in the box and complete the following sentences with them. Use the information in the text.",
+            "words": "type style, WYSIWYG, format, indent, font menu, justification, mail merging",
+            "sentences": {
+                "1. <u>WYSIWYG</u> stands for 'What you see is what you get'. It means that your printout will precisely match what you see on the screen.": "1. <u>WYSIWYG</u> означает «Что видишь, то и получаешь». Это означает, что ваша распечатка будет точно соответствовать тому, что вы видите на экране.",
+                "2. <u>justification</u> refers to the process by which the space between the words in a line is divided evenly to make the text flush with both left and right margins.": "2. Под <u>выравниванием</u> понимается процесс, при котором пространство между словами в строке делится поровну, чтобы текст находился на одном уровне с левым и правым полями.",
+                "3. You can change font by selecting the font name and point size from the <u>font menu</u>.": "3. Вы можете изменить шрифт, выбрав имя и размер шрифта в <u>меню шрифтов</u>.",
+                "4. <u>format</u> refers to a distinguishing visual characteristic of a typeface; 'italic', for example is a <u>type style</u> that may be used with a number of typefaces.": "4. <u>формат</u> относится к отличительной визуальной характеристике шрифта; «Курсив», например, — это <u>стиль шрифта</u>, который можно использовать с несколькими гарнитурами.",
+                "5. The <u>indent</u> menu of a word processor allows you to set margins, page numbers, spaces between columns and paragraph justifications.": "5. Меню <u>отступ</u> текстового процессора позволяет вам устанавливать поля, номера страниц, пробелы между столбцами и выравнивание абзаца.",
+                "6. <u>mail merging</u> enables you to combine two files, one containing names and addresses and the other containing a standard letter.": "6. <u>слияние почты</u> позволяет объединить два файла, один из которых содержит имена и адреса, а другой содержит стандартное письмо.",
+                "7. An <u>indent</u> is the distance between the beginning of a line and the left margin, or the end of a line and the right margin. An indented text is usually narrower than a text without <u>formatting</u>.": "7. <u>Отступ</u> — это расстояние между началом строки и левым полем или концом строки и правым полем. Текст с отступом обычно уже, чем текст без <u>форматирования</u>."
+            }
+        },
+        {
+            "type": "complete_sentences",
+            "title": "Task 12. Complete the following conversation with the given words.",
+            "words": "finally, now, command, mistake, first, next, Edit, insert",
+            "sentences": {
+                "A: Do you know how I can move this paragraph? I want to put it at the end of this page.": "A: Вы знаете, как я могу переместить этот абзац? Я хочу поместить его в конец этой страницы.",
+                "B: Er.. I think so. (1) <u>first</u> you use the mouse to select the text that you want to move and then you choose the Cut <u>command</u> (2) from the Edit menu.": "Б: Э... Думаю, да. (1) <u>сначала</u> вы используете мышь, чтобы выбрать текст, который вы хотите переместить, а затем вы выбираете <u>команду Cut</u> (2) в меню «Правка».",
+                "A: Like this?": "А: Вот так?",
+                "B: Yes. The selected text disappears and goes onto the Clipboard. And (3) <u>now</u> you find where you want the text to appear and you click to position the (4) <u>next</u> point in this place.": "Б: Да. Выделенный текст исчезнет и попадет в буфер обмена. И (3) <u>теперь</u> вы находите место, где должен появиться текст, и щелкаете, чтобы расположить (4) <u>следующую</u> точку в этом месте.",
+                "A: Mm.. is that OK?": "A: Мм.. это нормально?",
+                "B: Yes, if that’s where you want it. (5) <u>Now</u> choose Paste from the (6) <u>Edit</u> menu, or hold down Command and press V. (7) <u>Finally</u> check that the text has appeared in the right place.": "Б: Да, если ты этого хочешь. (5) <u>Теперь</u> выберите «Вставить» в (6) меню <u>Правка</u> или, удерживая нажатой клавишу «Command», нажмите V. (7) <u>Наконец</u> убедитесь, что текст появился в нужном месте».",
+                "A: What do I do if I make a (8) <u>mistake</u>?": "О: Что мне делать, если я совершу (8) <u>ошибку</u>?",
+                "B: You can choose Undo from the Edit menu which will reverse your last editing command.": "B: Вы можете выбрать «Отменить» в меню «Правка», чтобы отменить последнюю команду редактирования.",
+                "A: Brilliant! Thanks a lot.": "А: Гениально! Большое спасибо."
+            }
+        }
+    ],
+    "exercises": []
+}
